@@ -8,7 +8,7 @@ const Home = () => (
         <article className="post" id="home">
         <header>
             <div className="title">
-                <h2 data-testid="heading">About this site</h2>
+                <h2 data-testid="heading"> The website</h2>
                 <p>
                     this is my website
                 </p>

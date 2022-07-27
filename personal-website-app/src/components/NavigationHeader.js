@@ -4,14 +4,17 @@ import { Link } from 'react-router-dom';
 import Hamburger from './Hamburger';
 import routes from '../data/routes';
 
-const Navigation = () => (
+const NavigationHeader = () => (
     <header id="header">
-        <h1 className='index-link'>
+        {/* the link to home in h1 */}
+        <h1 className='navigation-index-link'>
             {routes.filter((l) => l.index).map((l) => (
                 <Link key={l.label} to={l.path}>{l.label}</Link>
             ))}
         </h1>
-        <nav className="links">
+
+        {/* the links to other pages in ul */}
+        <nav className="navigation-page-links">
             <ul>
                 {routes.filter((l) => !l.index).map((l) => (
                     <li key={l.label}>
@@ -20,8 +23,10 @@ const Navigation = () => (
                 ))}
             </ul>
         </nav>
+
+        {/* the hamburger menu that open/close with links to other pages */}
         <Hamburger />
     </header>
 )
 
-export default Navigation;
+export default NavigationHeader;

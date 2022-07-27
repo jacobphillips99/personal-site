@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 // import Analytics from '../components/Analytics';
-import Navigation from '../components/Navigation';
+import NavigationHeader from '../components/NavigationHeader';
 import SideBar from '../components/SideBar';
 // import ScrollToTop from '../components/ScrollToTop';
 
@@ -11,16 +11,20 @@ const Main = (props) => (
   <HelmetProvider>
     {/* <Analytics /> */}
     {/* <ScrollToTop /> */}
-    <Helmet titleTemplate="%s | Michael D'Angelo" defaultTitle="Michael D'Angelo" defer={false}>
+
+    {/* helemet adjusts HTML header */}
+    <Helmet titleTemplate="%s | Jacob Phillips" defaultTitle="Jacob Phillips" defer={false}>
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
+
+    {/* navigation header and side bar */}
     <div id="wrapper">
-      <Navigation />
+      <NavigationHeader />
       <div id="main">
         {props.children}
       </div>
-      {props.fullPage ? null : <SideBar />}
+      {/* {props.fullPage ? null : <SideBar />} */}
     </div>
   </HelmetProvider>
 );

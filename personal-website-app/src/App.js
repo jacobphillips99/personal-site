@@ -1,8 +1,13 @@
 import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import './App.css';
+import './static/css/main.scss';
+
 import Main from './layouts/Main';
 import Home from './pages/Home';
+import About from './pages/About';
+import Research from './pages/Research';
+import Work from './pages/Work';
+import Contact from './pages/Contact';
 import {Helmet, HelmetProvider} from "react-helmet-async";
 
 
@@ -12,16 +17,15 @@ import {Helmet, HelmetProvider} from "react-helmet-async";
 const App = () => {
     return (
         <Router>
-            {/* <Suspense fallback={<Main />}> */}
+            <Suspense fallback={<Main />}>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
-                    {/* <Route exact path="/" element={<Home />} /> */}
-                    {/* <Route path="/about" element={<About />} />
+                    <Route path="/about" element={<About />} />
                     <Route path="/research" element={<Research />} />
                     <Route path="/work" element={<Work />} />
-                    <Route path="/contact" element={<Contact />} /> */}
+                    <Route path="/contact" element={<Contact />} />
                 </Routes>
-            {/* </Suspense> */}
+            </Suspense>
         </Router>
     );
 }

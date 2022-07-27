@@ -10,6 +10,7 @@ const Hamburger = () => {
 
     return (
         <div className="hamburger">
+            {/* the button for open/close menu */}
             <nav className="main" id="hamburger-nav">
                 <ul>
                     { open ? (
@@ -23,6 +24,8 @@ const Hamburger = () => {
                     )}
                 </ul>
             </nav>
+
+            {/* the menu with links */}
             <Suspense fallback={<></>}>
                 <Menu right isOpen={open}>
                     <ul className='hamburger-ul'>
@@ -37,8 +40,7 @@ const Hamburger = () => {
                 </Menu>
             </Suspense>
         </div>
-    )
-  
+    );
 };
 
 export default Hamburger;

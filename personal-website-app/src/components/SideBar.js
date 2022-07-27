@@ -7,6 +7,7 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 
 const SideBar = () => (
   <section id="sidebar">
+    <p>sidebar start </p>
     <section id="intro">
       <Link to="/" className="logo">
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
@@ -35,10 +36,11 @@ const SideBar = () => (
       </ul>
     </section>
 
-    {/* <section id="footer">
-      <ContactIcons />
+    <section id="footer">
+      {/* <ContactIcons /> */}
       <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
-    </section> */}
+    </section>
+    <p>sidebar end </p>
   </section>
 );
 
