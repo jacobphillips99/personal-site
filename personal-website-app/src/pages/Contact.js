@@ -6,7 +6,9 @@ const Contact = () => (
     <Main title="Contact" description="How to contact Jacob Phillips">
         <article className="post" id="contact">
             <header>
-                <h2>Contact</h2>
+                <div className='title'>
+                    <h2>Contact</h2>
+                </div>
             </header>
         </article>
         <p>blah Contact blah</p>

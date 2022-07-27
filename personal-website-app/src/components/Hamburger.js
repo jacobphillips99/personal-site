@@ -9,16 +9,16 @@ const Hamburger = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <div className="hamburger">
+        <div className="hamburger-container">
             {/* the button for open/close menu */}
             <nav className="main" id="hamburger-nav">
                 <ul>
                     { open ? (
-                        <li className='hamburger close-hamburger'>
+                        <li className='menu close-menu'>
                             <div onClick={() => setOpen(!open)} className='menu-hover'>&#10005;</div>
                         </li>
                     ) : (
-                        <li className='hamburger open-hamburger'>
+                        <li className='menu open-menu'>
                             <div onClick={() => setOpen(!open)} className='menu-hover'>&#9776;</div>
                         </li>
                     )}

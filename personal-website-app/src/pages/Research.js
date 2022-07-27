@@ -6,7 +6,9 @@ const Research = () => (
     <Main title="Research" description="Learn about Jacob Phillips's research">
         <article className="post" id="research">
             <header>
-                <h2>Research</h2>
+                <div className='title'>
+                    <h2>Research</h2>
+                </div>
             </header>
         </article>
         <p>blah research blah</p>

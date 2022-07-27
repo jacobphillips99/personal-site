@@ -24,7 +24,7 @@ const Main = (props) => (
       <div id="main">
         {props.children}
       </div>
-      {/* {props.fullPage ? null : <SideBar />} */}
+      {props.fullPage ? null : <SideBar />}
     </div>
   </HelmetProvider>
 );
@@ -43,7 +43,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Michael D'Angelo's personal website.",
+  description: "Jacob Phillips's personal website.",
 };
 
 export default Main;

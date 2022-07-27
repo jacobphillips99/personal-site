@@ -138,7 +138,7 @@
 			}
 		}
 
-		@include breakpoint(medium) {
+		@include breakpoint(small) {
 			.links {
 				display: none;
 			}
@@ -225,11 +225,12 @@
 }
 
 .hamburger-container  {
-	display: none;
+	// display: none;
+	outline: none;
 }
 
-@include breakpoint(medium) {
-	.hamburger-container  {
-		display: initial;
-	}
-}
+// @include breakpoint(large) {
+// 	.hamburger-container  {
+// 		display: initial;
+// 	}
+// }
