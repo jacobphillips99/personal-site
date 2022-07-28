@@ -7,11 +7,12 @@ const Contact = () => (
         <article className="post" id="contact">
             <header>
                 <div className='title'>
-                    <h2>Contact</h2>
+                    <h2>Contact</h2>                    
+                    <p>contact</p> 
                 </div>
             </header>
+            <p>blah Contact blah</p>
         </article>
-        <p>blah Contact blah</p>
     </Main>
 )
 

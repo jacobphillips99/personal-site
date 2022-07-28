@@ -1,9 +1,13 @@
 import React from 'react';
+// import PropTypes from 'prop-types';
 
 import Main from '../layouts/Main';
+import Job from '../components/Job.js';
+import positions from '../data/positions';
 
+// Work is a container for a list of Jobs populated from positions
 const Work = () => (
-    <Main title="Work" description="Learn about Jacob Phillips's work experience">
+    <Main title="Work" description="Jacob Phillips's work experience">
         <article className="post" id="work">
             <header>
                 <div className='title'>
@@ -11,7 +15,11 @@ const Work = () => (
                 </div>
             </header>
         </article>
-        <p>blah work blah</p>
+        <div className='experience'>
+            {positions.map((job) => (
+                <Job data={job} key={job.company} />
+            ))}
+        </div>
     </Main>
 )
 
