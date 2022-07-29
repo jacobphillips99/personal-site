@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './static/css/main.scss';
 
@@ -8,11 +8,6 @@ import About from './pages/About';
 import Research from './pages/Research';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
-import {Helmet, HelmetProvider} from "react-helmet-async";
-
-
-/* look into lazy loading */
-// const Home = lazy(() => import('./pages/Home'));
 
 const App = () => {
     return (

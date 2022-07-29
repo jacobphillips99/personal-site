@@ -3,6 +3,7 @@ import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faFileLines } from '@fortawesome/free-regular-svg-icons';
 
 const data = [
   {
@@ -25,6 +26,11 @@ const data = [
     link: 'https://twitter.com/jacob_dphillips',
     label: 'Twitter',
     icon: faTwitter,
+  },
+  {
+    link: './pdfs/jacob_phillips_resume_spring_2022.pdf',
+    label: 'Resume',
+    icon: faFileLines,
   },
   {
     link: 'mailto:jacob.phillips8905@@gmail.com',

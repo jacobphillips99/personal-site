@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactIcons from '../components/ContactIcons';
 
 import Main from '../layouts/Main';
 
@@ -8,10 +9,10 @@ const Contact = () => (
             <header>
                 <div className='title'>
                     <h2>Contact</h2>                    
-                    <p>contact</p> 
                 </div>
             </header>
-            <p>blah Contact blah</p>
+            <p>Let's get in touch! Email me at <a href="mailto:jacob.phillips8905@gmail.com">jacob.phillips8905@gmail.com</a> or on socials below.</p>
+            <ContactIcons />
         </article>
     </Main>
 )

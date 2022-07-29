@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import ContactIcons from '../components/ContactIcons';
 // import Link from 'react-router-dom';
 
 import Main from '../layouts/Main';
@@ -8,15 +10,15 @@ const Home = () => (
         <article className="post" id="home">
         <header>
             <div className="title">
-                <h2 data-testid="heading"> The website</h2>
-                <p>
-                    this is my website
-                </p>
+                <h3 data-testid="heading"> Welcome to my site!</h3>
             </div>
         </header>
         <p>
-            this is my website even more with links to come
+            Feel free to read more <Link to="/about">about me</Link>, 
+            check out my <Link to="/work">work experience</Link> and <Link to="/research">research</Link>, 
+            or <Link to="/contact">contact me</Link>.
         </p>
+        <ContactIcons />
         </article>
     </Main>
 );

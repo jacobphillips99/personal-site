@@ -10,16 +10,12 @@ const Research = () => (
             <header>
                 <div className='title'>
                     <h2>Research</h2>
-                    <p>about</p> 
                 </div>
             </header>
-            <p>blah research blah</p>
-        </article>
-        <div className='projects'>
             {projects.map((project) => (
                 <Project data={project} key={project.title} />
             ))}
-        </div>
+        </article>
     </Main>
 )
 

@@ -14,12 +14,11 @@ const Work = () => (
                     <h2>Work</h2>
                 </div>
             </header>
-        </article>
-        <div className='experience'>
             {positions.map((job) => (
-                <Job data={job} key={job.company} />
+            <Job data={job} key={job.company} />
             ))}
-        </div>
+        </article>
+        
     </Main>
 )
 

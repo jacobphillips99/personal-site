@@ -1,33 +1,44 @@
 const positions = [
     {
-        company: 'company',
-        position: 'position',
-        link: 'www.google.com',
-        daterange: 'jan - dec',
+        company: 'Themis AI',
+        position: 'Co-Founder and CTO',
+        link: 'https://themisai.io',
+        daterange: 'September 2021 - May 2022',
         points: [
             'point 1',
             'point 2'
         ]
     },
     {
-        company: 'company2',
-        position: 'position2',
-        link: 'www.google.com',
-        daterange: 'jan - dec',
+        company: 'Scale',
+        position: 'Intern',
+        link: 'https://scale.com',
+        daterange: 'Summer 2021',
         points: [
-            'point 1',
-            'point 2'
+            'Scale AI is a company',
+            'point 2',
         ]
     },
-    // {
-    //     company: '',
-    //     position: '',
-    //     link: '',
-    //     daterange: '',
-    //     points: [
-    //         '',
-    //     ]
-    // },
+    {
+        company: 'Skydio',
+        position: 'Intern',
+        link: 'https://www.skydio.com',
+        daterange: 'Summer 2020',
+        points: [
+            'pt 1',
+            'pt 2',
+        ]
+    },
+    {
+        company: 'Wayve',
+        position: 'Intern',
+        link: 'https://wayve.ai',
+        daterange: 'Summer 2019',
+        points: [
+            'pt 1',
+            'pt 2',
+        ]
+    },
 ]
 
 export default positions;

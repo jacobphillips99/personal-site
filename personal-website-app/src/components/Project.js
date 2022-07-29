@@ -5,9 +5,20 @@ import PropTypes from 'prop-types';
 const Project = ({ data }) => (
   <article className="projects-container">
     <header>
-      <h4><a href={data.link}>{data.title}</a></h4>
-      <p className="projects-organization">{data.organization}</p>
-      <p className="daterange"> {data.daterange}</p>
+      {/* only link the title if link exists */}
+      <h4>
+        {data.link ? (
+          <a href={data.link}>{data.title}</a>
+        ) : (
+          <span>{data.title}</span>
+        )}
+      </h4>
+      {/* only create organization if it exists */}
+      {data.organization ? (
+        <p className="projects-organization">{data.organization}, {data.daterange}</p>
+        ) : ( null
+      )}
+      {/* <p className="daterange"> {data.daterange}</p> */}
     </header>
     <ul className="points">
       {data.points.map((point) => (
@@ -20,8 +31,8 @@ const Project = ({ data }) => (
 Project.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-    organization: PropTypes.string.isRequired,
+    link: PropTypes.string,
+    organization: PropTypes.string,
     daterange: PropTypes.string.isRequired,
     points: PropTypes.arrayOf(PropTypes.string).isRequired,
   }).isRequired,
