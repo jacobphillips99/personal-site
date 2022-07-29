@@ -5,20 +5,17 @@ import PropTypes from 'prop-types';
 const Project = ({ data }) => (
   <article className="projects-container">
     <header>
-      {/* only link the title if link exists */}
       <h4>
         {data.link ? (
           <a href={data.link}>{data.title}</a>
         ) : (
-          <span>{data.title}</span>
+          <div>{data.title}</div>
         )}
       </h4>
-      {/* only create organization if it exists */}
       {data.organization ? (
-        <p className="projects-organization">{data.organization}, {data.daterange}</p>
-        ) : ( null
+        <p className="daterange-organization">{data.organization} | {data.daterange}</p>
+        ) : ( <p className="daterange"> {data.daterange}</p>
       )}
-      {/* <p className="daterange"> {data.daterange}</p> */}
     </header>
     <ul className="points">
       {data.points.map((point) => (
