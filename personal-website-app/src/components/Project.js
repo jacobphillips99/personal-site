@@ -5,19 +5,19 @@ import PropTypes from 'prop-types';
 const Project = ({ data }) => (
   <article className="projects-container">
     <header>
-      <h4>
+      <h3>
         {data.link ? (
           <a href={data.link}>{data.title}</a>
         ) : (
           <div>{data.title}</div>
         )}
-      </h4>
+      </h3>
       {data.organization ? (
         <p className="daterange-organization">{data.organization} | {data.daterange}</p>
         ) : ( <p className="daterange"> {data.daterange}</p>
       )}
     </header>
-    <ul className="points">
+    <ul className="project-points">
       {data.points.map((point) => (
         <li key={point}>{point}</li>
       ))}

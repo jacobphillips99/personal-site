@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const LifeContent = ({ data }) => (
   <article className="life-container">
     <header>
-      <h4>{data.title}</h4>
+      <h3>{data.title}</h3>
     </header>
     <p>{data.content}</p>
   </article>

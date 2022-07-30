@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const Job = ({ data }) => (
   <article className="jobs-container">
     <header>
-      <h4><a href={data.link}>{data.company}</a> - {data.position}</h4>
+      <h3><a href={data.link}>{data.company}</a> - {data.position}</h3>
       <p className="daterange">{data.location} | {data.daterange}</p>
     </header>
     <ul className="points">

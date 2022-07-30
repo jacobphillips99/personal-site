@@ -1,7 +1,7 @@
 const positions = [
     {
         company: 'Themis AI',
-        position: 'Co-Founder and CTO',
+        position: 'Cofounder and CTO',
         link: 'https://themisai.io',
         location: 'Boston, MA',
         daterange: 'September 2021 - May 2022',

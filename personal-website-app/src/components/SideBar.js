@@ -18,10 +18,9 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
-      <p>Hi, I&apos;m Jacob. I'm interested in applying AI and Machine Learning to the real world. 
+      <p>Hi, I&apos;m Jacob. I work on applying machine learning solutions to the real world. 
         I graduated from MIT with a Bachelor of Science in Computer Science in February 2021 and a Master of Engineering in Computer Science in February 2022.
-        I'm passionate about fairness and bias in AI, AGI alignment, and safe robotics. 
+        I'm interested in fairness and bias in AI, AGI alignment, and safe robotics. 
       </p>
       <ul className="actions">
         <li>
