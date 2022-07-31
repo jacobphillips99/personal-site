@@ -24,7 +24,7 @@ const lifeContent = [
       },
       {
         subsectionTitle: 'Athletics',
-        subsectionContent: 'I\'ve swum my whole life, culminating in two years on the MIT Swim and Dive team before COVID. I raced mostly the 200 and 500 Freestyle, occassionally branching up to the 1000 and 1650. I ran a half-marathon once and massively regretted it. I like to hike and have done a few 14ers in Colorado. I recently picked up skiing and have gotten pretty adept at falling down the mountain miles behind my friends.',
+        subsectionContent: 'I\'ve swum my whole life, culminating in two years on the MIT Swim and Dive team before COVID. I raced mostly the 200 and 500 Freestyle, occassionally branching up to the 1000 and 1650. I ran a half-marathon once and massively regretted it. I like to hike and have done a few 14ers in Colorado and want to someday do the Tour Du Mont Blanc. I recently picked up skiing and have gotten pretty adept at falling down the mountain miles behind my friends.',
       }
     ]
   }
