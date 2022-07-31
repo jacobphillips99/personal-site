@@ -19,7 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <p>Hi, I&apos;m Jacob. I work on applying machine learning solutions to the real world. 
-        I graduated from MIT with a Bachelor of Science in Computer Science in February 2021 and a Master of Engineering in Computer Science in February 2022.
+        I graduated from MIT with a B.S. in Computer Science in February 2021 and a M.Eng. in Computer Science in February 2022.
         I'm interested in fairness and bias in AI, AGI alignment, and safe robotics. 
       </p>
       <ul className="actions">
