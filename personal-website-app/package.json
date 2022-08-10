@@ -1,6 +1,7 @@
 {
   "name": "personal-website-app",
   "version": "0.1.0",
+  "homepage": "jacobdphillips.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
