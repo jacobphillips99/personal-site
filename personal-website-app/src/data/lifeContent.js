@@ -2,7 +2,8 @@ const lifeContent = [
   {
     title: 'Intro',
     content: [
-      'blah this is a section about me',
+        'Hi, I\'m Jacob. I work on applying machine learning solutions to the real world. I graduated from MIT with a B.S. in Computer Science in February 2021 and a M.Eng. in Computer Science in February 2022. I\'m interested in computer vision for autonomous robitics, fairness and bias in AI, and AGI alignment.'
+      
     ],
     subsections: null,
   },
@@ -20,7 +21,7 @@ const lifeContent = [
     subsections: [
       {
         subsectionTitle: 'History',
-        subsectionContent: 'I became intersted in history while taking Latin classes in highschool. While at MIT, I completed most of a Ancient and Medieval History major before graduating early to start my master\'s. My courses and interest focus mostly on ancient Greece and Rome alongside early Christianity. I\'ve been lucky enough to travel parts of Athens, Rome, and some early Christian cathedrals. I\'m always looking for new books or podcasts on this time period.',
+        subsectionContent: 'I became intersted in history while taking Latin classes in high school. While at MIT, I completed most of a Ancient and Medieval History major before graduating early to start my master\'s. My courses and interest focus mostly on ancient Greece and Rome alongside early Christianity. I\'ve been lucky enough to travel parts of Athens, Rome, and some early Christian cathedrals. I\'m always looking for new books or podcasts on this time period.',
       },
       {
         subsectionTitle: 'Athletics',

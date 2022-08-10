@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContactIcons from './ContactIcons';
+import lifeContent from '../data/lifeContent';
 
 const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
@@ -18,10 +19,11 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <p>Hi, I&apos;m Jacob. I work on applying machine learning solutions to the real world. 
+      <p>{lifeContent[0].content}</p>
+      {/* <p>Hi, I&apos;m Jacob. I work on applying machine learning solutions to the real world. 
         I graduated from MIT with a B.S. in Computer Science in February 2021 and a M.Eng. in Computer Science in February 2022.
-        I'm interested in fairness and bias in AI, AGI alignment, and safe robotics. 
-      </p>
+        I'm interested in computer vision for autonomous robitics, fairness and bias in AI, and AGI alignment. 
+      </p> */}
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/about') ? (
