@@ -20,23 +20,6 @@ const SideBar = () => (
 
     <section className="blurb">
       <p>{lifeContent[0].content}</p>
-      {/* <p>Hi, I&apos;m Jacob. I work on applying machine learning solutions to the real world. 
-        I graduated from MIT with a B.S. in Computer Science in February 2021 and a M.Eng. in Computer Science in February 2022.
-        I'm interested in computer vision for autonomous robitics, fairness and bias in AI, and AGI alignment. 
-      </p> */}
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/about') ? (
-            <Link to="/about" className="button">
-              Learn More
-            </Link>
-          ) : (
-            <Link to="/about" className="button">
-              About Me
-            </Link>
-          )}
-        </li>
-      </ul>
     </section>
 
     <section id="footer">
