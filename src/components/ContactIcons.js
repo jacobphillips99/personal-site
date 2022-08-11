@@ -1,19 +1,21 @@
-import React from "react";
+import React from 'react';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import data from '../data/contact';
 
-const ContactIcons = () => (
+function ContactIcons() {
+  return (
     <ul className="icons">
-        {data.map((d) => (
-            <li key={d.label}>
-                <a href={d.link}>
-                    <FontAwesomeIcon icon={d.icon} />
-                </a>
-            </li>
-        ))}
+      {data.map((d) => (
+        <li key={d.label}>
+          <a href={d.link}>
+            <FontAwesomeIcon icon={d.icon} />
+          </a>
+        </li>
+      ))}
     </ul>
-); 
+  );
+}
 
 export default ContactIcons;
