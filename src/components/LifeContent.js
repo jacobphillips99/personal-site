@@ -33,7 +33,7 @@ LifeContent.propTypes = {
         subsectionContent: PropTypes.string.isRequired,
       }).isRequired,
     ),
-  }).isRequired,
+  }),
 };
 
 LifeContent.defaultProps = {
