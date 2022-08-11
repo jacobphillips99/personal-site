@@ -31,10 +31,10 @@ LifeContent.propTypes = {
       PropTypes.shape({
         subsectionTitle: PropTypes.string.isRequired,
         subsectionContent: PropTypes.string.isRequired,
-        }).isRequired,
+      }).isRequired,
     ),
   }).isRequired,
-}
+};
 
 LifeContent.defaultProps = {
   data: {
@@ -42,6 +42,6 @@ LifeContent.defaultProps = {
     content: [],
     subsections: null,
   },
-}
+};
 
 export default LifeContent;

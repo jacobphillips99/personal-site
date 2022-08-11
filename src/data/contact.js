@@ -1,9 +1,7 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faFileLines } from '@fortawesome/free-regular-svg-icons';
+import {
+  faGithub, faFacebookF, faLinkedinIn, faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFileLines } from '@fortawesome/free-regular-svg-icons';
 
 const data = [
   {

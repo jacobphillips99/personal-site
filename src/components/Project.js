@@ -13,8 +13,18 @@ const Project = ({ data }) => (
         )}
       </h3>
       {data.organization ? (
-        <p className="daterange-organization">{data.organization} | {data.daterange}</p>
-        ) : ( <p className="daterange"> {data.daterange}</p>
+        <p className="daterange-organization">
+          {data.organization}
+          {' '}
+          |
+          {' '}
+          {data.daterange}
+        </p>
+      ) : (
+        <p className="daterange">
+          {' '}
+          {data.daterange}
+        </p>
       )}
     </header>
     <ul className="project-points">
