@@ -9,7 +9,7 @@ const positions = [
       'Co-founded a VC-backed startup delivering debiasing solutions for machine learning workflows, spanning data quality, model training, and model deployment.',
       'Led research and engineering to develop a platform and tools for existing machine learning pipelines.',
       'Developed packages for Pytorch and Tensorflow for data visualization, debiased model training, and evaluation of deployed models, compatible with both existing ML pipelines and cloud-compute infrastructure.',
-      'Spun out research from MIT Distributed Robotics Lab and advised by Daniela Rus.',
+      'Spun out of research conducted at the MIT Distributed Robotics Lab and advised by Daniela Rus.',
     ],
   },
   {
@@ -31,7 +31,7 @@ const positions = [
     location: 'Remote (Redwood City, CA)',
     daterange: 'Summer 2020',
     points: [
-      'Developed novel long-range detection and tracking algorithms for remote flight safety protocols',
+      'Developed novel long-range detection and tracking algorithms for remote flight safety protocols.',
       'Prototyped a CNN-based system with novel loss functions capable of tracking aircraft at distances greater than 10km using existing drone hardware.',
       'Achieved higher accuracy and realiability than FAA standards, enabling the development of new products.',
       'Created dynamic synthetic datasets combined with real-world data to train and test the system.',

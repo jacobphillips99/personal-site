@@ -7,8 +7,7 @@ const projects = [
     points: [
       'Graduate thesis in fulfillment of MIT EECS Master of Engineering in Electrical Engineering and Computer Science with a Concentrartion in Artificial Intelligence.',
       'Conducted research into training unbiased time-series models via data sampling and transformation beyond inverse propensity scoring.',
-      'Applied novel bias mitigation techniques to natural language processing, financial market forecasting, and weather prediction tasks.',
-      'Implemented new algorithms on Transformer and LSTM model architectures.',
+      'Applied novel bias mitigation techniques to natural language processing, financial market forecasting, and weather prediction tasks on LSTM and Transformer model architectures.',
       'Improved model accuracy on under-represented portions of the dataset while maintaining accuracy on overrepresented subjects.',
     ],
   },
