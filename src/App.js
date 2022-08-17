@@ -1,7 +1,7 @@
 // import React, { Suspense } from 'react';
 import React from 'react';
 import {
-  BrowserRouter, Route, Routes,
+  BrowserRouter as Router, Route, Routes,
 } from 'react-router-dom';
 
 import './static/css/main.scss';
@@ -15,8 +15,7 @@ import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 
 const App = () => (
-  <BrowserRouter>
-    {/* <Suspense fallback={<Main />}> */}
+  <Router>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -25,8 +24,7 @@ const App = () => (
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-    {/* </Suspense> */}
-  </BrowserRouter>
+  </Router>
 );
 
 export default App;
